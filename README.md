@@ -5,7 +5,9 @@ WE Factor is a metric I invented to compare different housing scenarios (R Space
 
 Breaks down WE Factor and compares working from home and working from office
 
-We connect through magnetic fields, and magnetic fields fall off with distance. The script assumes that the fields fall off at a factor of 1/r^a, where "a" is 1.5 (conviently between 1 and 2); would need to really do a full characterization, however it doesn't really matter much because ratios are being taken (results do shift a little, but quality still shows and proves R Spaces)
+We connect through magnetic fields, and magnetic fields fall off with distance. The script assumes that the fields fall off at a factor of 1/r^a, where "a" is 1.5 (conviently between 1 and 2); would need to really do a full characterization, however it doesn't really matter much because ratios are being taken (results do shift a little, but quality still shows and proves R Spaces).
+
+The analysis factors out the R characterstic (B fields cancel out in ratio, R's don't)
 
 The base formula calculates Nox Ratio = (1-E)*RMS(1/rh^a) + E*RMS(1/re^a)
 rh = vector of distances to neighbors at home
