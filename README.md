@@ -1,6 +1,12 @@
 # We_Factor
 Simple script to calculate We Factor
 
+WE Factor is a metric I invented to compare different housing scenarios (R Spaces) to apartments.
+
+Breaks down WE Factor and compares working from home and working from office
+
+We connect through magnetic fields, and magnetic fields fall off with distance. The script assumes that the fields fall off at a factor of 1/r^a, where "a" is 1.5 (conviently between 1 and 2); would need to really do a full characterization, however it doesn't really matter much because ratios are being taken (results do shift a little, but quality still shows and proves R Spaces)
+
 The base formula calculates Nox Ratio = (1-E)*RMS(1/rh^a) + E*RMS(1/re^a)
 rh = vector of distances to neighbors at home
 re = vector of distances to people in public (during public time)
